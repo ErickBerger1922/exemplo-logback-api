@@ -1,0 +1,117 @@
+2024-09-10 19:49:58,559 INFO org.springframework.boot.StartupInfoLogger [main] Starting ExemploLogbackApiApplication using Java 22.0.2 with PID 10620 (C:\Users\erick.berger\Downloads\exemplo-logback-api\exemplo-logback-api\target\classes started by erick.berger in C:\Users\erick.berger\Downloads\exemplo-logback-api) 
+2024-09-10 19:49:58,585 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default" 
+2024-09-10 19:49:59,489 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2024-09-10 19:49:59,567 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 71 ms. Found 3 JPA repository interfaces. 
+2024-09-10 19:50:00,321 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port 8080 (http) 
+2024-09-10 19:50:00,337 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"] 
+2024-09-10 19:50:00,337 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat] 
+2024-09-10 19:50:00,337 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.26] 
+2024-09-10 19:50:00,415 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext 
+2024-09-10 19:50:00,415 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1756 ms 
+2024-09-10 19:50:00,620 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default] 
+2024-09-10 19:50:00,745 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.5.2.Final 
+2024-09-10 19:50:00,792 INFO org.hibernate.cache.internal.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled 
+2024-09-10 19:50:01,200 INFO org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer 
+2024-09-10 19:50:01,242 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting... 
+2024-09-10 19:50:01,499 INFO com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@70485aa 
+2024-09-10 19:50:01,499 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed. 
+2024-09-10 19:50:01,562 WARN org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default) 
+2024-09-10 19:50:02,618 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration) 
+2024-09-10 19:50:02,728 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2024-09-10 19:50:03,288 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2024-09-10 19:50:03,906 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"] 
+2024-09-10 19:50:03,922 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path '/' 
+2024-09-10 19:50:03,932 INFO org.springframework.boot.StartupInfoLogger [main] Started ExemploLogbackApiApplication in 6.145 seconds (process running for 7.095) 
+2024-09-10 19:50:10,662 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2024-09-10 19:50:10,662 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet' 
+2024-09-10 19:50:10,662 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 0 ms 
+2024-09-10 19:58:05,501 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default' 
+2024-09-10 19:58:05,503 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated... 
+2024-09-10 19:58:05,506 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed. 
+2024-09-10 20:05:37,626 INFO org.springframework.boot.StartupInfoLogger [main] Starting ExemploLogbackApiApplication using Java 22.0.2 with PID 3548 (C:\Users\erick.berger\Downloads\exemplo-logback-api\exemplo-logback-api\target\classes started by erick.berger in C:\Users\erick.berger\Downloads\exemplo-logback-api) 
+2024-09-10 20:05:37,629 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default" 
+2024-09-10 20:05:38,499 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2024-09-10 20:05:38,573 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 66 ms. Found 3 JPA repository interfaces. 
+2024-09-10 20:05:39,312 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port 8080 (http) 
+2024-09-10 20:05:39,336 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"] 
+2024-09-10 20:05:39,339 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat] 
+2024-09-10 20:05:39,340 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.26] 
+2024-09-10 20:05:39,409 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext 
+2024-09-10 20:05:39,410 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1717 ms 
+2024-09-10 20:05:39,611 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default] 
+2024-09-10 20:05:39,676 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.5.2.Final 
+2024-09-10 20:05:39,716 INFO org.hibernate.cache.internal.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled 
+2024-09-10 20:05:40,088 INFO org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer 
+2024-09-10 20:05:40,119 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting... 
+2024-09-10 20:05:40,334 INFO com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@58fbcb71 
+2024-09-10 20:05:40,336 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed. 
+2024-09-10 20:05:40,367 WARN org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default) 
+2024-09-10 20:05:41,431 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration) 
+2024-09-10 20:05:41,505 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2024-09-10 20:05:42,058 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2024-09-10 20:05:42,629 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"] 
+2024-09-10 20:05:42,648 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path '/' 
+2024-09-10 20:05:42,659 INFO org.springframework.boot.StartupInfoLogger [main] Started ExemploLogbackApiApplication in 5.612 seconds (process running for 6.338) 
+2024-09-10 20:06:15,522 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2024-09-10 20:06:15,523 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet' 
+2024-09-10 20:06:15,524 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms 
+2024-09-10 20:09:12,588 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default' 
+2024-09-10 20:09:12,591 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated... 
+2024-09-10 20:09:12,596 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed. 
+2024-09-10 20:33:24,568 INFO org.springframework.boot.StartupInfoLogger [main] Starting ExemploLogbackApiApplication using Java 22.0.2 with PID 7160 (C:\Users\erick.berger\Downloads\exemplo-logback-api\exemplo-logback-api\target\classes started by erick.berger in C:\Users\erick.berger\Downloads\exemplo-logback-api) 
+2024-09-10 20:33:24,568 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default" 
+2024-09-10 20:33:25,460 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2024-09-10 20:33:25,539 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 70 ms. Found 3 JPA repository interfaces. 
+2024-09-10 20:33:26,276 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port 8080 (http) 
+2024-09-10 20:33:26,291 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"] 
+2024-09-10 20:33:26,307 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat] 
+2024-09-10 20:33:26,307 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.26] 
+2024-09-10 20:33:26,386 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext 
+2024-09-10 20:33:26,386 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1752 ms 
+2024-09-10 20:33:26,608 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default] 
+2024-09-10 20:33:26,671 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.5.2.Final 
+2024-09-10 20:33:26,718 INFO org.hibernate.cache.internal.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled 
+2024-09-10 20:33:27,063 INFO org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer 
+2024-09-10 20:33:27,094 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting... 
+2024-09-10 20:33:27,328 INFO com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1de85972 
+2024-09-10 20:33:27,328 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed. 
+2024-09-10 20:33:27,382 WARN org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default) 
+2024-09-10 20:33:28,595 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration) 
+2024-09-10 20:33:28,689 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2024-09-10 20:33:29,224 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2024-09-10 20:33:29,773 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"] 
+2024-09-10 20:33:29,788 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path '/' 
+2024-09-10 20:33:29,814 INFO org.springframework.boot.StartupInfoLogger [main] Started ExemploLogbackApiApplication in 5.823 seconds (process running for 6.556) 
+2024-09-10 20:33:38,797 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default' 
+2024-09-10 20:33:38,797 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated... 
+2024-09-10 20:33:38,797 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed. 
+2024-09-10 20:34:38,912 INFO org.springframework.boot.StartupInfoLogger [main] Starting ExemploLogbackApiApplication using Java 22.0.2 with PID 7608 (C:\Users\erick.berger\Downloads\exemplo-logback-api\exemplo-logback-api\target\classes started by erick.berger in C:\Users\erick.berger\Downloads\exemplo-logback-api) 
+2024-09-10 20:34:38,912 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default" 
+2024-09-10 20:34:39,758 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2024-09-10 20:34:39,836 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 70 ms. Found 3 JPA repository interfaces. 
+2024-09-10 20:34:40,558 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port 8080 (http) 
+2024-09-10 20:34:40,574 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"] 
+2024-09-10 20:34:40,574 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat] 
+2024-09-10 20:34:40,574 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.26] 
+2024-09-10 20:34:40,637 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext 
+2024-09-10 20:34:40,652 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1675 ms 
+2024-09-10 20:34:40,840 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default] 
+2024-09-10 20:34:40,919 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.5.2.Final 
+2024-09-10 20:34:40,966 INFO org.hibernate.cache.internal.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled 
+2024-09-10 20:34:41,321 INFO org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer 
+2024-09-10 20:34:41,343 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting... 
+2024-09-10 20:34:41,596 INFO com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@f10d055 
+2024-09-10 20:34:41,596 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed. 
+2024-09-10 20:34:41,627 WARN org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default) 
+2024-09-10 20:34:42,642 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration) 
+2024-09-10 20:34:42,721 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2024-09-10 20:34:43,270 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2024-09-10 20:34:43,820 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"] 
+2024-09-10 20:34:43,835 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path '/' 
+2024-09-10 20:34:43,851 INFO org.springframework.boot.StartupInfoLogger [main] Started ExemploLogbackApiApplication in 5.516 seconds (process running for 6.208) 
+2024-09-10 20:34:51,009 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2024-09-10 20:34:51,009 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet' 
+2024-09-10 20:34:51,009 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 0 ms 
+2024-09-10 20:52:02,562 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default' 
+2024-09-10 20:52:02,565 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated... 
+2024-09-10 20:52:02,570 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed. 
